@@ -1,12 +1,11 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>PS3 KSA</title>
-<!--    <link rel="stylesheet" href="style.css">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dropdown Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
     <style>
         *{
             margin: 0;
@@ -203,15 +202,13 @@
         </nav>
     </div>
 </header>
+        // كود لجعل القائمة تعمل على الهواتف
+        const menuToggle = document.getElementById('menuToggle');
+        const menu = document.getElementById('menu');
 
-<!--hero section -->
-<section class="hero">
-    <div class="hero__content">
-        <h2>Drop Down Menu</h2>
-        <h4>Free source code</h4>
-        <button>GET NOW</button>
-    </div>
-</section>
-
+        menuToggle.addEventListener('click', () => {
+            menu.classList.toggle('open');
+        });
+    </script>
 </body>
 </html>
