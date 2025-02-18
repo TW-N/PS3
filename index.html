@@ -6,44 +6,38 @@
     <title>Responsive Dropdown Menu</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
-    </style>
-</head>
-
 <body>
+    <nav>
+        <div class="logo">Welcome to the site ksa</div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <ul class="menu" id="menu">
+            <li><a href="#">STORE</a>
+                <ul class="submenu">
+                    <li><a href="https://www.mediafire.com/file/m2eontxn4wb9ya8/Zuko_Store_v4.50_By_Drake.pkg/file">ZUKO STORE</a></li>
+                    <li><a href="https://www.mediafire.com/file/msy6vh0ich5dyvv/PKGi_Store_v9.99_By_Drake.pkg/file">PKGI</a></li>
+                </ul>
+            </li>
+            <li><a href="#">PROGRAMS</a>
+                <ul class="submenu">
+                    <li><a href="https://www.mediafire.com/file/2gp9pqwx7vpoq6n/multiMan_v4.84_HFW_By_Drake.pkg/file">MultiMan HFW</a></li>
+                    <li><a href="https://www.mediafire.com/file/g48irkcstggqv0c/multiMan_v4.85_CFW_By_Drake.pkg/file">MultiMan CFW</a></li>
+                        <li> <a href="#" target="_blank" > Portfolio </a> </li>
+                        <li> <a href="#" target="_blank" > Teams </a> </li>
+                        <li> <a href="#" target="_blank" > Teams </a> </li>
+                        <li> <a href="#" target="_blank" > Teams </a> </li>
+                        <li> <a href="#" target="_blank" > Teams </a> </li>
+                        <li> <a href="#" target="_blank" > Teams </a> </li>
+                </ul>
+            </li>
+            <li><a href="#">Trophi</a>
+                <ul class="submenu">
+                    <li><a href="https://www.mediafire.com/file/lmvrbxq5ribg5t0/PlayStation_III_Trophies_By_Drakr.zip/file">Trophies</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
 
-<header>
-    <div class="container">
-        <div>
-            <h2>PS3 KSA</h2>
-        </div>
-        <nav>
-            <ul>
-                <li> <a href="https://tw-n.github.io/PS3/" target="_blank" > Home </a> </li>
-                <li>  PS3HEN
-                    <ul class="drop-down">
-                        <li> <a href="#" target="_blank" > Portfolio </a> </li>
-                        <li> <a href="#" target="_blank" > Teams </a> </li>
-                        <li> <a href="#" target="_blank" > Teams </a> </li>
-                        <li> <a href="#" target="_blank" > Teams </a> </li>
-                        <li> <a href="#" target="_blank" > Teams </a> </li>
-                        <li> <a href="#" target="_blank" > Teams </a> </li>
-                    </ul>
-                </li>
-                <li> <a href="#" target="_blank" > Gallery </a> </li>
-                <li>  Services
-                    <ul class="drop-down">
-                        <li> <a href="#" target="_blank" > Portfolio </a> </li>
-                        <li> <a href="#" target="_blank" > Teams </a> </li>
-                        <li> <a href="https://www.youtube.com/playlist?list=PLwGdqUZWnOp3t3qT7pvAznwUDzKbhEcCc" target="_blank" > Portfolio </a> </li>
-                        <li> <a href="#" target="_blank" > Teams </a> </li>
-                    </ul>
-                </li>
-                <li> <a href="#" target="_blank" > Contact </a> </li>
-            </ul>
-        </nav>
-    </div>
-</header>
+    <script>
         // كود لجعل القائمة تعمل على الهواتف
         const menuToggle = document.getElementById('menuToggle');
         const menu = document.getElementById('menu');
