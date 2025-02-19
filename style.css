@@ -1,65 +1,54 @@
-a {
-  text-decoration: none;
+body{
+	background-image: url('ksa.png');
+background-size: cover;
+margin: 0;
 }
-
-nav {
-  font-family: monospace;
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+	ul li{
+		width: 190px;
+		height: 50px;
+		background-color: #000;
+		font-size: 20px;
+		display: inline-block;
+		text-align: center;
+		line-height: 50px;
+		opacity: 0.9;
+		float: left;
 }
-
-ul {
-  background: darkorange;
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-}
-
-li {
-  color: #fff;
-  background: darkorange;
-  display: block;
-  float: left;
-  padding: 1rem;
-  position: relative;
-  text-decoration: none;
-  transition-duration: 0.5s;
-}
-  
-li a {
-  color: #fff;
-}
-
-li:hover,
-li:focus-within {
-  background: red;
-  cursor: pointer;
-}
-
-li:focus-within a {
-  outline: none;
-}
-
-ul li ul {
-  background: orange;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 5rem;
-  position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 0;
-  display: none;
-}
-
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover,
-ul li ul:focus {
-   visibility: visible;
-   opacity: 1;
-   display: block;
-}
-
-ul li ul li {
-  clear: both;
-  width: 100%;
-}
+		ul li a{
+			text-decoration: none;
+			color: #fff;
+			display: block;
+			}
+			ul li a:hover{
+				background-color: #EA5452;
+	 		transition-duration: .2s; 
+	}
+				
+ul li ul li{
+	display: none;
+	}
+	ul li:hover ul li{
+		display: block;
+	}
+	.momo{
+	color: red;
+	background-color: #181818;
+	margin: 0;
+	display: inline-block;
+	padding: 60px;
+	font-size: 20px;
+	opacity: 1.0;
+		}
+		.baba{
+			font-size: 17px;
+			} 
+			.plp{
+				font-size: 12px;
+        section{
+			text-align: center;
+			} 
