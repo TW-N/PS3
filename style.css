@@ -11,7 +11,7 @@ ul{
 	ul li{
 		width: 190px;
 		height: 50px;
-		background-color: #ff5733;
+		background-color: #000000;
 		font-size: 20px;
 		display: inline-block;
 		text-align: center;
@@ -37,7 +37,7 @@ ul li ul li{
 	}
 	.momo{
 	color: red;
-	background-color: #181818;
+	background-color: #FF0000;
 	margin: 0;
 	display: inline-block;
 	padding: 60px;
